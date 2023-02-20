@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<RDBSchema:RDBSchema xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="MSATLIB" name="MSATLIB">
-  <database href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5.dbxmi#A0.0.0.5"/>
-  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#QUEUETB"/>
-  <tables xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#JOBTB"/>
-</RDBSchema:RDBSchema>
