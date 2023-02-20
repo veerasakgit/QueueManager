@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+
+	<!--page name="Sign On"-->
+	<page name="PMS_SignOn">
+		<class>th.co.msat.motor.as400interface.page.SignOnPage</class>
+		<!--config-file>SignOn.xml</config-file-->
+		<config-file>PMS_SignOn.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>36</col>
+			<len>8</len>
+			<value>Sign On</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="MSICV01"-->
+	<page name="PMS_MSICV01">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>MainMenu.xml</config-file-->
+		<config-file>PMS_MainMenu.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>2</col>
+			<len>8</len>
+			<value>MSICV01</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="IMNUCL002S"-->
+	<page name="PMS_IMNUCL002S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>SubMenu.xml</config-file-->
+		<config-file>PMS_SubMenu.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>68</col>
+			<len>11</len>
+			<value>IMNUCL002S</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="ICL0310S"-->
+	<page name="PMS_ICL0310S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ICL0310S.xml</config-file-->
+		<config-file>PMS_ICL0310S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>70</col>
+			<len>9</len>
+			<value>ICL0310S</value>
+		</page-validator>
+	</page>
+	
+</pages>

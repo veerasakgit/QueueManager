@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="ICL1070S"-->
+<page id="CM_ICL1070Ss">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="clauseCode">
+			<row>24</row>
+			<col>17</col>
+			<len>3</len>
+		</field>
+		<field name="confirm">
+			<row>24</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		<field name="PASTE">
+			<row>6</row>
+			<col>7</col>
+			<len>47</len>
+		</field>
+		<field name="DRIVER_NAME_DESC">
+			<row>9</row>
+			<col>7</col>
+			<len>7</len>
+		</field>
+		<field name="DRIVER_NAME">
+			<row>9</row>
+			<col>14</col>
+			<len>63</len>
+		</field>
+		<field name="DEFAULT_BY_DESC">
+			<row>10</row>
+			<col>7</col>
+			<len>11</len>
+		</field>
+		<field name="DEFAULT_BY">
+			<row>10</row>
+			<col>18</col>
+			<len>59</len>
+		</field>
+		<field name="NOTIFICATION_NO_DESC">
+			<row>11</row>
+			<col>7</col>
+			<len>16</len>
+		</field>
+		<field name="NOTIFICATION_NO">
+			<row>11</row>
+			<col>23</col>
+			<len>54</len>
+		</field>
+		<field name="PROVINCE_DESC">
+			<row>12</row>
+			<col>7</col>
+			<len>9</len>
+		</field>
+		<field name="PROVINCE">
+			<row>12</row>
+			<col>16</col>
+			<len>61</len>
+		</field>
+		<field name="ACCIDENT_PLACE_DESC">
+			<row>13</row>
+			<col>7</col>
+			<len>15</len>
+		</field>
+		<field name="ACCIDENT_PLACE">
+			<row>13</row>
+			<col>22</col>
+			<len>55</len>
+		</field>
+		<field name="DESC_LINE_DESC">
+			<row>14</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="DESC_LINE_1">
+			<row>15</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="DESC_LINE_2">
+			<row>16</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="DESC_LINE_3">
+			<row>17</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="DESC_LINE_4">
+			<row>18</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="survyor_name_desc">
+			<row>19</row>
+			<col>7</col>
+			<len>14</len>
+		</field>
+		<field name="survyor_name">
+			<row>19</row>
+			<col>21</col>
+			<len>55</len>
+		</field>
+		<field name="survyor_office_desc">
+			<row>20</row>
+			<col>7</col>
+			<len>14</len>
+		</field>
+		<field name="survyor_office">
+			<row>20</row>
+			<col>23</col>
+			<len>54</len>
+		</field>
+		<field name="tel_desc">
+			<row>21</row>
+			<col>7</col>
+			<len>4</len>
+		</field>
+		<field name="tel">
+			<row>21</row>
+			<col>11</col>
+			<len>54</len>
+		</field>
+	</fields>
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendF10"/>
+				<process id="2" type="setString">
+					<field name="clauseCode">
+						<param name="clauseCode">V01</param>
+					</field>
+				</process>
+				<process id="3" type="sendEnter" checkerror="true"/>
+				<process id="4" type="sendPageUp" checkerror="false"/>
+				<process id="5" type="sendPageUp" checkerror="false"/>
+				<process id="6" type="setString">
+					<field name="PASTE">
+						<param name="PASTE">Please see more details from line 38 onwards.</param>
+					</field>
+				</process>
+				<process id="7" type="sendPageDown" checkerror="false"/>
+				<process id="8" type="sendPageDown" checkerror="false"/>
+				<process id="9" type="setString">
+					<field name="DRIVER_NAME_DESC">
+						<param name="DRIVER_NAME_DESC">DRIVER:</param>
+					</field>
+				</process>
+				<process id="10" type="setString">
+					<field name="DRIVER_NAME">
+						<param name="DRIVER_NAME" cache="true"/>
+					</field>
+				</process>
+				<process id="11" type="setString">
+					<field name="DEFAULT_BY_DESC">
+						<param name="DEFAULT_BY_DESC">DEFAULT BY:</param>
+					</field>
+				</process>
+				<process id="12" type="setString">
+					<field name="DEFAULT_BY">
+						<param name="DEFAULT_BY" cache="true"/>
+					</field>
+				</process>
+				<process id="13" type="setString">
+					<field name="NOTIFICATION_NO_DESC">
+						<param name="NOTIFICATION_NO_DESC">NOTIFICATION NO:</param>
+					</field>
+				</process>
+				<process id="14" type="setString">
+					<field name="NOTIFICATION_NO">
+						<param name="NOTIFICATION_NO" cache="true"/>
+					</field>
+				</process>
+				<process id="15" type="setString">
+					<field name="PROVINCE_DESC">
+						<param name="PROVINCE_DESC">PROVINCE:</param>
+					</field>
+				</process>
+				<process id="16" type="setString">
+					<field name="PROVINCE">
+						<param name="PROVINCE" cache="true"/>
+					</field>
+				</process>
+				<process id="17" type="setString">
+					<field name="ACCIDENT_PLACE_DESC">
+						<param name="ACCIDENT_PLACE_DESC">ACCIDENT PLACE:</param>
+					</field>
+				</process>
+				<process id="18" type="setString">
+					<field name="ACCIDENT_PLACE">
+						<param cache="true" name="ACCIDENT_PLACE"/>
+					</field>
+				</process>
+				<process id="19" type="setString">
+					<field name="DESC_LINE_DESC">
+						<param name="DESC_LINE_DESC">DESCRIPTION OF LOSS:</param>
+					</field>
+				</process>
+				<process id="20" type="setString">
+					<field name="DESC_LINE_1">
+						<param name="DESC_LINE_1" cache="true"/>
+					</field>
+				</process>
+				<process id="21" type="setString">
+					<field name="DESC_LINE_2">
+						<param name="DESC_LINE_2" cache="true"/>
+					</field>
+				</process>
+				<process id="22" type="setString">
+					<field name="DESC_LINE_3">
+						<param name="DESC_LINE_3" cache="true"/>
+					</field>
+				</process>
+				<process id="23" type="setString">
+					<field name="DESC_LINE_4">
+						<param name="DESC_LINE_4" cache="true"/>
+					</field>
+				</process>
+				<process id="24" type="setString">
+					<field name="survyor_name_desc">
+						<param name="survyor_name_desc">SURVEYOR NAME:</param>
+					</field>
+				</process>
+				<process id="25" type="setString">
+					<field name="survyor_name">
+						<param name="survyor_name" cache="true"/>
+					</field>
+				</process>
+				<process id="26" type="setString">
+					<field name="survyor_office_desc">
+						<param name="survyor_office_desc">SURVEYOR OFFICE:</param>
+					</field>
+				</process>
+				<process id="27" type="setString">
+					<field name="survyor_office">
+						<param name="survyor_office" cache="true"/>
+					</field>
+				</process>
+				<process id="28" type="setString">
+					<field name="tel_desc">
+						<param name="tel_desc">TEL:</param>
+					</field>
+				</process>
+				<process id="29" type="setString">
+					<field name="tel">
+						<param name="tel" cache="true"/>
+					</field>
+				</process>
+				<process id="30" type="sendEnter" checkerror="true"/>
+				<process id="31" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="32" type="sendEnter" checkerror="true"/>
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="default">
+			<process id="0" type="sendF12"/>
+			<process id="1" type="sendF12"/>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+	</error-handler>
+</page>

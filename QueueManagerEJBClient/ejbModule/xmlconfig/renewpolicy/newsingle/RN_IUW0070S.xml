@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="IUW0070S"-->
+<page id="RN_IUW0070S">
+	<error-panel>
+	
+	</error-panel>	
+	<fields>
+		<field name="freetext1">
+			<row>6</row>
+			<col>7</col>
+			<len>36</len>
+		</field>
+		<field name="freetext2">
+			<row>7</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext3">
+			<row>8</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext4">
+			<row>9</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext5">
+			<row>10</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext6">
+			<row>11</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		
+		<!-- add -->
+		<field name="freetext7">
+			<row>12</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext8">
+			<row>13</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext9">
+			<row>14</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext10">
+			<row>15</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext11">
+			<row>16</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext12">
+			<row>17</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext13">
+			<row>18</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext14">
+			<row>19</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext15">
+			<row>20</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext16">
+			<row>21</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext17">
+			<row>22</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext19">
+			<row>7</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		
+		
+		<field name="freetext20">
+			<row>8</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		<field name="freetext21">
+			<row>9</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		
+		<field name="freetext34">
+			<row>22</row>
+			<col>7</col>
+			<len>70</len>
+		</field>
+		
+		<field name="confirm">
+			<row>24</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		
+		<field name="clause_code">
+			<row>24</row>
+			<col>17</col>
+			<len>2</len>
+		</field>
+	
+		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendF10" />
+				<process id="2" type="setString">
+					<field name="clause_code">
+						<param name="clause_code">V</param>
+					</field>
+				</process>				
+				<process id="3" type="sendEnter"  />
+				
+				<process id="4" type="sendPageUp" />
+				
+				<process id="5.0" type="setString">
+					<field name="freetext1">
+						<param name="freetext1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="5.1" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.PolicyRenewal</class-name>
+					<method-name>setFreeText1</method-name>
+					<params></params>
+				</process>
+			
+				<process id="5.2" type="setString">
+					<field name="freetext2">
+							<param name="space" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.3" type="setString">
+					<field name="freetext3">
+							<param name="freetext3" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="5.4" type="setString">
+					<field name="freetext4">
+							<param name="space" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.5" type="setString">
+					<field name="freetext5">
+							<param name="space" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<!-- 
+				<process id="5.5" type="setString">
+					<field name="freetext6">
+							<param name="space" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				 -->
+				<process id="5.6" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.PolicyRenewal</class-name>
+					<method-name>setPremiumCal</method-name>
+					<params></params>
+				</process>
+				
+				<process id="5.7" type="setString">
+					<field name="freetext7">
+						<param name="freetext7" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.8" type="setString">
+					<field name="freetext8">
+						<param name="freetext8" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.9" type="setString">
+					<field name="freetext9">
+						<param name="freetext9" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.10" type="setString">
+					<field name="freetext10">
+						<param name="freetext10" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.11" type="setString">
+					<field name="freetext11">
+						<param name="freetext11" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.12" type="setString">
+					<field name="freetext12">
+						<param name="freetext12" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.13" type="setString">
+					<field name="freetext13">
+						<param name="freetext13" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.14" type="setString">
+					<field name="freetext14">
+						<param name="freetext14" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.15" type="setString">
+					<field name="freetext15">
+						<param name="freetext15" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.16" type="setString">
+					<field name="freetext16">
+						<param name="freetext16" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5.17" type="setString">
+					<field name="freetext17">
+						<param name="freetext17" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+		
+				<!--  send page down -->
+	
+				<process id="17" type="sendPageDown" />
+							
+				<process id="17.5" type="setString">
+					<field name="freetext19">
+							<param name="space" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="18" type="setString">
+					<field name="freetext20">
+						<param name="freetext20" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="19" type="setString">
+					<field name="freetext21">
+							<param name="space" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+			
+					
+				<process id="20.2" type="setString">
+					<field name="freetext34">
+							<param name="freetext34" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<!-- 
+				<process id="20.3" type="sendF10" />
+				<process id="20.4" type="setString">
+					<field name="clause_code">
+						<param name="clause_code">V34</param>
+					</field>
+				</process>	
+				
+				 -->			
+				<process id="20.5" type="sendEnter"  />	
+								 
+				<process id="21" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>				
+				<process id="22" type="sendEnter" />
+				
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		
+		
+	</error-handler>
+</page>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xmi:id="_avY20LF-Ed6Ydb8QTMZtGA" type="Class" name="classdiagram.dnx">
+  <children xmi:id="_e1r90LF-Ed6Ydb8QTMZtGA" sourceEdges="_4pc20LF-Ed6Ydb8QTMZtGA">
+    <children xmi:id="_e11u0LF-Ed6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_e11u0bF-Ed6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_e11u0rF-Ed6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    </children>
+    <children xmi:id="_e11u07F-Ed6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    </children>
+    <children xmi:id="_e11u1LF-Ed6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_e11u1bF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    </children>
+    <children xmi:id="_e11u1rF-Ed6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_e11u17F-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    </children>
+    <children xmi:id="_e11u2LF-Ed6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_e11u2bF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    </children>
+    <children xmi:id="_e2vGsLF-Ed6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_e2vGsbF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_e1r90bF-Ed6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e1r90rF-Ed6Ydb8QTMZtGA" x="636" y="954"/>
+  </children>
+  <children xmi:id="_4nz4ELF-Ed6Ydb8QTMZtGA" sourceEdges="_-6NDMLF-Ed6Ydb8QTMZtGA" targetEdges="_4pc20LF-Ed6Ydb8QTMZtGA _-6NDOLF-Ed6Ydb8QTMZtGA _nKTp97F_Ed6Ydb8QTMZtGA">
+    <children xmi:id="_4nz4E7F-Ed6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_4nz4FLF-Ed6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_4nz4FbF-Ed6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_4nz4FrF-Ed6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_4nz4F7F-Ed6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4nz4GLF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_4nz4GbF-Ed6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4nz4GrF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_4nz4G7F-Ed6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_4nz4HLF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_4nz4HbF-Ed6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_4nz4HrF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_4nz4EbF-Ed6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4nz4ErF-Ed6Ydb8QTMZtGA" x="9858" y="1590"/>
+  </children>
+  <children xmi:id="_-4t1cLF-Ed6Ydb8QTMZtGA" sourceEdges="_-6NDOLF-Ed6Ydb8QTMZtGA _gB9HObF_Ed6Ydb8QTMZtGA _DBnSnbGBEd6Ydb8QTMZtGA" targetEdges="_-6NDMLF-Ed6Ydb8QTMZtGA">
+    <children xmi:id="_-4t1c7F-Ed6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_-4t1dLF-Ed6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_-4t1dbF-Ed6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_-4t1drF-Ed6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_-4t1d7F-Ed6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_-4t1eLF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_-4t1ebF-Ed6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_-4t1erF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_-4t1e7F-Ed6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_-4t1fLF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_-4t1fbF-Ed6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_-4t1frF-Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_-4t1cbF-Ed6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-4t1crF-Ed6Ydb8QTMZtGA" x="19716" y="12084"/>
+  </children>
+  <children xmi:id="_gBDvULF_Ed6Ydb8QTMZtGA" targetEdges="_gB9HObF_Ed6Ydb8QTMZtGA _nKTp8LF_Ed6Ydb8QTMZtGA">
+    <children xmi:id="_gBDvU7F_Ed6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_gBDvVLF_Ed6Ydb8QTMZtGA" width="530" height="530"/>
+    </children>
+    <children xmi:id="_gBDvVbF_Ed6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_gBDvVrF_Ed6Ydb8QTMZtGA" type="Kind">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_gBDvV7F_Ed6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_gBDvWLF_Ed6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_gBDvWbF_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_gBDvWrF_Ed6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_gBDvW7F_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_gBDvXLF_Ed6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_gBDvXbF_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_gBDvUbF_Ed6Ydb8QTMZtGA" showStereotype="Label" useClassifierShape="true"/>
+    <element xmi:type="uml:Interface" href="vizref:///#jsrctype^vcore.target=uml2.Interface^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gBDvUrF_Ed6Ydb8QTMZtGA" x="20034" y="20988"/>
+  </children>
+  <children xmi:id="_nJHXIbF_Ed6Ydb8QTMZtGA" sourceEdges="_nKTp8LF_Ed6Ydb8QTMZtGA _nKTp97F_Ed6Ydb8QTMZtGA" targetEdges="_SAeUCbGAEd6Ydb8QTMZtGA">
+    <children xmi:id="_nJHXJLF_Ed6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_nJHXJbF_Ed6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_nJHXJrF_Ed6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_nJHXJ7F_Ed6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_nJHXKLF_Ed6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_nJHXKbF_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_nJHXKrF_Ed6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_nJHXK7F_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_nJHXLLF_Ed6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_nJHXLbF_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_nJHXLrF_Ed6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_nJHXL7F_Ed6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_nJHXIrF_Ed6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nJHXI7F_Ed6Ydb8QTMZtGA" x="8586" y="15582"/>
+  </children>
+  <children xmi:id="_SAUjBrGAEd6Ydb8QTMZtGA" sourceEdges="_SAeUCbGAEd6Ydb8QTMZtGA">
+    <children xmi:id="_SAUjCbGAEd6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_SAUjCrGAEd6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_SAUjC7GAEd6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_SAUjDLGAEd6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_SAUjDbGAEd6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_SAUjDrGAEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_SAUjD7GAEd6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_SAUjELGAEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_SAUjEbGAEd6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_SAUjErGAEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_SAUjE7GAEd6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_SAUjFLGAEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_SAUjB7GAEd6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SAUjCLGAEd6Ydb8QTMZtGA" x="1642" y="23531"/>
+  </children>
+  <children xmi:id="_C-DBMLGBEd6Ydb8QTMZtGA" sourceEdges="_WXWYSrGBEd6Ydb8QTMZtGA" targetEdges="_DBnSnbGBEd6Ydb8QTMZtGA">
+    <children xmi:id="_C-DBM7GBEd6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_C-DBNLGBEd6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_C-DBNbGBEd6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_C-DBNrGBEd6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_C-DBN7GBEd6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_C-DBOLGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_C-DBObGBEd6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_C-DBOrGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_C-DBO7GBEd6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_C-DBPLGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_C-DBPbGBEd6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_C-DBPrGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_C-DBMbGBEd6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-DBMrGBEd6Ydb8QTMZtGA" x="27666" y="8268"/>
+  </children>
+  <children xmi:id="_WWA7cLGBEd6Ydb8QTMZtGA" targetEdges="_WXWYSrGBEd6Ydb8QTMZtGA">
+    <children xmi:id="_WWA7c7GBEd6Ydb8QTMZtGA" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_WWA7dLGBEd6Ydb8QTMZtGA" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_WWA7dbGBEd6Ydb8QTMZtGA" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_WWA7drGBEd6Ydb8QTMZtGA" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_WWA7d7GBEd6Ydb8QTMZtGA" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_WWA7eLGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_WWA7ebGBEd6Ydb8QTMZtGA" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_WWA7erGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_WWA7e7GBEd6Ydb8QTMZtGA" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_WWA7fLGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <children xmi:id="_WWA7fbGBEd6Ydb8QTMZtGA" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_WWA7frGBEd6Ydb8QTMZtGA"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_WWA7cbGBEd6Ydb8QTMZtGA" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WWA7crGBEd6Ydb8QTMZtGA" x="36888" y="6996"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_avY20bF-Ed6Ydb8QTMZtGA"/>
+  <edges xmi:id="_4pc20LF-Ed6Ydb8QTMZtGA" source="_e1r90LF-Ed6Ydb8QTMZtGA" target="_4nz4ELF-Ed6Ydb8QTMZtGA">
+    <children xmi:id="_4pc207F-Ed6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_4pc21bF-Ed6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_4pc217F-Ed6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_4pc21rF-Ed6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4pc21LF-Ed6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_4pc20bF-Ed6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=QueueSBBean[jcu^name=QueueSBBean.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJB]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4pc20rF-Ed6Ydb8QTMZtGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_-6NDMLF-Ed6Ydb8QTMZtGA" source="_4nz4ELF-Ed6Ydb8QTMZtGA" target="_-4t1cLF-Ed6Ydb8QTMZtGA">
+    <children xmi:id="_-6NDM7F-Ed6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_-6NDNbF-Ed6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_-6NDN7F-Ed6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_-6NDNrF-Ed6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-6NDNLF-Ed6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_-6NDMbF-Ed6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-6NDMrF-Ed6Ydb8QTMZtGA" points="[3943, -27, -5397, -9261]$[8970, -27, -370, -9261]$[8970, 6165, -370, -3069]"/>
+  </edges>
+  <edges xmi:id="_-6NDOLF-Ed6Ydb8QTMZtGA" source="_-4t1cLF-Ed6Ydb8QTMZtGA" target="_4nz4ELF-Ed6Ydb8QTMZtGA">
+    <children xmi:id="_-6NDO7F-Ed6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_-6NDPbF-Ed6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_-6NDP7F-Ed6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_-6NDPrF-Ed6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-6NDPLF-Ed6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_-6NDObF-Ed6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-6NDOrF-Ed6Ydb8QTMZtGA" points="[-2222, -529, 5874, 8679]$[-7249, -529, 847, 8679]$[-7249, -4869, 847, 4339]"/>
+  </edges>
+  <edges xmi:id="_gB9HObF_Ed6Ydb8QTMZtGA" source="_-4t1cLF-Ed6Ydb8QTMZtGA" target="_gBDvULF_Ed6Ydb8QTMZtGA">
+    <children xmi:id="_gB9HPLF_Ed6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_gB9HPrF_Ed6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_gB9HQLF_Ed6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_gB9HP7F_Ed6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gB9HPbF_Ed6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_gB9HOrF_Ed6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gB9HO7F_Ed6Ydb8QTMZtGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_nKTp8LF_Ed6Ydb8QTMZtGA" source="_nJHXIbF_Ed6Ydb8QTMZtGA" target="_gBDvULF_Ed6Ydb8QTMZtGA">
+    <children xmi:id="_nKTp87F_Ed6Ydb8QTMZtGA" type="NameLabel">
+      <children xmi:id="_nKTp9bF_Ed6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_nKTp9rF_Ed6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKTp9LF_Ed6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_nKTp8bF_Ed6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Implementation" href="vizref:///#jimpl^vcore.target=uml2.Implementation[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=Executor[jcu^name=Executor.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nKTp8rF_Ed6Ydb8QTMZtGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_nKTp97F_Ed6Ydb8QTMZtGA" source="_nJHXIbF_Ed6Ydb8QTMZtGA" target="_4nz4ELF-Ed6Ydb8QTMZtGA">
+    <children xmi:id="_nKTp-rF_Ed6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_nKTp_LF_Ed6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_nKTp_rF_Ed6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_nKTp_bF_Ed6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nKTp-7F_Ed6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_nKTp-LF_Ed6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=WorkQueueController[jcu^name=WorkQueueController.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nKTp-bF_Ed6Ydb8QTMZtGA" points="[423, -9208, -2223, 9631]$[423, -10690, -2223, 8149]$[1482, -14500, -1164, 4339]"/>
+  </edges>
+  <edges xmi:id="_SAeUCbGAEd6Ydb8QTMZtGA" source="_SAUjBrGAEd6Ydb8QTMZtGA" target="_nJHXIbF_Ed6Ydb8QTMZtGA">
+    <children xmi:id="_SAnd8rGAEd6Ydb8QTMZtGA" type="NameLabel">
+      <children xmi:id="_SAnd9LGAEd6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_SAnd9bGAEd6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SAnd87GAEd6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_SAnd8LGAEd6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=TestQueueExecutor[jcu^name=TestQueueExecutor.java[jpack^name=th.co.msat.motor.scrapexecutor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=ExecutorImpl[jcu^name=ExecutorImpl.java[jpack^name=th.co.msat.motor.queuemanager.executor[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SAnd8bGAEd6Ydb8QTMZtGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_DBnSnbGBEd6Ydb8QTMZtGA" source="_-4t1cLF-Ed6Ydb8QTMZtGA" target="_C-DBMLGBEd6Ydb8QTMZtGA">
+    <children xmi:id="_DBxDkLGBEd6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_DBxDkrGBEd6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_DBxDlLGBEd6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_DBxDk7GBEd6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DBxDkbGBEd6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_DBnSnrGBEd6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=WorkQueueManager[jcu^name=WorkQueueManager.java[jpack^name=th.co.msat.motor.queuemanager[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DBnSn7GBEd6Ydb8QTMZtGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_WXWYSrGBEd6Ydb8QTMZtGA" source="_C-DBMLGBEd6Ydb8QTMZtGA" target="_WWA7cLGBEd6Ydb8QTMZtGA">
+    <children xmi:id="_WXWYTbGBEd6Ydb8QTMZtGA" type="KindLabel">
+      <children xmi:id="_WXWYT7GBEd6Ydb8QTMZtGA" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_WXWYUbGBEd6Ydb8QTMZtGA" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <children xmi:id="_WXWYULGBEd6Ydb8QTMZtGA" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WXWYTrGBEd6Ydb8QTMZtGA" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_WXWYS7GBEd6Ydb8QTMZtGA" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=JobQueueDAO[jcu^name=JobQueueDAO.java[jpack^name=th.co.msat.motor.queuemanager.database[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]][jsrctype^name=JobVO[jcu^name=JobVO.java[jpack^name=th.co.msat.motor.queuemanager.vo[jsrcroot^srcfolder=ejbModule[project^vcore.target=uml2.Model^id=QueueManagerEJBClient]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WXWYTLGBEd6Ydb8QTMZtGA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<pages>
+	<page name="Sign On">
+		<class>th.co.msat.motor.as400interface.page.SignOnPage</class>
+		<config-file>SignOns.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>36</col>			
+			<len>8</len>
+			<value>Sign On</value>
+		</page-validator>
+	</page>
+	
+	<!-- U/W : MOTOR -->
+	<page name="MSUV002">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<config-file>MSUV002.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>2</col>			
+			<len>8</len>
+			<value>MSUV002</value>
+		</page-validator>
+	</page>
+	
+	<!--  -->
+	<page name="MSUV03">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<config-file>MSUV03.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>2</col>			
+			<len>7</len>
+			<value>MSUV03</value>
+		</page-validator>
+	</page>
+	
+	<!-- POLICY RENEWAL PROCESSING MENU -->
+	
+	<page name="IMNUUW03S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<config-file>IMNUUW03S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>69</col>			
+			<len>11</len>
+			<value>IMNUUW03S</value>
+		</page-validator>
+	</page>
+	
+	<!-- POLICY RENEWAL -->
+	<page name="IRN0200S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<config-file>IRN0200S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>70</col>			
+			<len>9</len>
+			<value>IRN0200S</value>
+		</page-validator>
+	</page>
+	
+	<!-- POLICY RENEWAL -->
+	<page name="IRN0200S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<config-file>IRN0200S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>70</col>			
+			<len>9</len>
+			<value>IRN0200S</value>
+		</page-validator>
+	</page>
+	
+	
+	
+	
+</pages>

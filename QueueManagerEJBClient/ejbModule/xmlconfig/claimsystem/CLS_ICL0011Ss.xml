@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="ICL0011S"-->
+<page id="CLS_ICL0011S">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="resCode1">
+			<row>11</row>
+			<col>4</col>
+			<len>4</len>
+		</field>
+		<field name="resCode2">
+			<row>12</row>
+			<col>4</col>
+			<len>4</len>
+		</field>
+		<field name="resCode3">
+			<row>13</row>
+			<col>4</col>
+			<len>4</len>
+		</field>
+		<field name="resCode4">
+			<row>14</row>
+			<col>4</col>
+			<len>4</len>
+		</field>
+		<field name="resCode5">
+			<row>15</row>
+			<col>4</col>
+			<len>4</len>
+		</field>
+		<field name="resCode6">
+			<row>16</row>
+			<col>4</col>
+			<len>4</len>
+		</field>		
+		<field name="resAmount1">
+			<row>11</row>
+			<col>45</col>
+			<len>20</len>
+		</field>
+		<field name="resAmount2">
+			<row>12</row>
+			<col>45</col>
+			<len>20</len>
+		</field>
+		<field name="resAmount3">
+			<row>13</row>
+			<col>45</col>
+			<len>20</len>
+		</field>
+		<field name="resAmount4">
+			<row>14</row>
+			<col>45</col>
+			<len>20</len>
+		</field>
+		<field name="resAmount5">
+			<row>15</row>
+			<col>45</col>
+			<len>20</len>
+		</field>
+		<field name="resAmount6">
+			<row>16</row>
+			<col>45</col>
+			<len>20</len>
+		</field>		
+		<field name="confirm">
+			<row>23</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+	</fields>
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendEnter" />
+				
+				<process id="2" type="setString">
+					<field name="resCode1">
+						<param name="RESCODE1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="3" type="setString">
+					<field name="resAmount1">
+						<param name="RESERVEAMOUNT1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="4" type="setString">
+					<field name="resCode2">
+						<param name="RESCODE2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="5" type="setString">
+					<field name="resAmount2">
+						<param name="RESERVEAMOUNT2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="6" type="setString">
+					<field name="resCode3">
+						<param name="RESCODE3" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="7" type="setString">
+					<field name="resAmount3">
+						<param name="RESERVEAMOUNT3" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<process id="8" type="sendF3"/>
+				<process id="9" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="10" type="sendEnter" checkerror="true"/>
+				
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="Reserve Code is invalid">
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>		
+		</error>
+		
+		<error code="Cursor in protected area of display.">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Cursor in protected area of display.</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+		
+		<error code="Reserve Code is invalid">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Reserve Code is invalid</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+	</error-handler>
+</page>

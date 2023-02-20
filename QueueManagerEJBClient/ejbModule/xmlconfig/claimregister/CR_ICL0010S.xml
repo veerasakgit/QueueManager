@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="ICL0010S"-->
+<page id="CR_ICL0010S">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="function">
+			<row>3</row>
+			<col>7</col>
+			<len>1</len>
+		</field>
+		<field name="policyNo1">
+			<row>4</row>
+			<col>20</col>
+			<len>3</len>
+		</field>
+		<field name="policyNo2">
+			<row>4</row>
+			<col>24</col>
+			<len>4</len>
+		</field>
+		<field name="policyNo3">
+			<row>4</row>
+			<col>29</col>
+			<len>2</len>
+		</field>
+		<field name="policyNo4">
+			<row>4</row>
+			<col>32</col>
+			<len>6</len>
+		</field>
+		<field name="accidentDate">
+			<row>6</row>
+			<col>20</col>
+			<len>8</len>
+		</field>
+		<field name="accidentDateFree">
+			<row>6</row>
+			<col>26</col>
+			<len>2</len>
+		</field>
+		<field name="detail">
+			<row>23</row>
+			<col>64</col>
+			<len>1</len>
+		</field>
+		<field name="confirm">
+			<row>23</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		<field name="ACCIDENT PLACE2">
+			<row>15</row>
+			<col>20</col>
+			<len>40</len>
+		</field>
+		<field name="ACCIDENT PLACE1">
+			<row>14</row>
+			<col>20</col>
+			<len>40</len>
+		</field>
+		<field name="natureCode1">
+			<row>17</row>
+			<col>20</col>
+			<len>3</len>
+		</field>
+		<field name="natureCode2">
+			<row>17</row>
+			<col>24</col>
+			<len>40</len>
+		</field>
+		<field name="notificationDate">
+			<row>7</row>
+			<col>20</col>
+			<len>8</len>
+		</field>
+		<field name="printform">
+			<row>19</row>
+			<col>69</col>
+			<len>1</len>
+		</field>
+		<field name="user">
+			<row>20</row>
+			<col>34</col>
+			<len>2</len>
+		</field>
+		<field name="RISK NO.">
+			<row>4</row>
+			<col>40</col>
+			<len>5</len>
+		</field>
+		<field name="new menu">
+			<row>22</row>
+			<col>22</col>
+			<len>1</len>
+		</field>
+		<field name="REVIEW_DATE">
+			<row>20</row>
+			<col>20</col>
+			<len>8</len>
+		</field>
+	</fields>
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="setString">
+					<field name="function">
+						<param name="function">0</param>
+					</field>
+				</process>
+				<process id="2" type="setString">
+					<field name="policyNo1">
+						<param name="policyNo1" type="java.lang.String">
+							<factory-class>th.co.msat.motor.as400interface.page.ICL0010S</factory-class>
+							<factory-method>getPolicyNo1</factory-method>
+							<params>
+								<param name="MSITB POLICY NO." type="java.lang.String" cache="true"/>
+							</params>
+						</param>
+					</field>
+				</process>
+				<process id="3" type="setString">
+					<field name="policyNo2">
+						<param name="policyNo2" type="java.lang.String">
+							<factory-class>th.co.msat.motor.as400interface.page.ICL0010S</factory-class>
+							<factory-method>getPolicyNo2</factory-method>
+							<params>
+								<param name="MSITB POLICY NO." type="java.lang.String" cache="true"/>
+							</params>
+						</param>
+					</field>
+				</process>
+				<process id="4" type="setString">
+					<field name="policyNo3">
+						<param name="policyNo3" type="java.lang.String">
+							<factory-class>th.co.msat.motor.as400interface.page.ICL0010S</factory-class>
+							<factory-method>getPolicyNo3</factory-method>
+							<params>
+								<param name="MSITB POLICY NO." type="java.lang.String" cache="true"/>
+							</params>
+						</param>
+					</field>
+				</process>
+				<process id="5" type="setString">
+					<field name="policyNo4">
+						<param name="policyNo4" type="java.lang.String">
+							<factory-class>th.co.msat.motor.as400interface.page.ICL0010S</factory-class>
+							<factory-method>getPolicyNo4</factory-method>
+							<params>
+								<param name="MSITB POLICY NO." type="java.lang.String" cache="true"/>
+							</params>
+						</param>
+					</field>
+				</process>
+				<process id="7" type="setString">
+					<field name="RISK NO.">
+						<param name="RISK NO." cache="true"/>
+					</field>
+				</process>
+				<process id="8" type="setString">
+					<field name="accidentDate">
+						<param name="accidentDate" cache="true"/>
+					</field>
+				</process>
+				<process id="9" type="sendEnter" checkerror="true"/>
+				<process id="0" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.PutClassificationCode</class-name>
+					<method-name>putCFCode</method-name>
+				</process>
+				<process id="10" type="setString">
+					<field name="notificationDate">
+						<param name="notificationDate" cache="true"/>
+					</field>
+				</process>
+				<process id="11" type="setString">
+					<field name="ACCIDENT PLACE1">
+						<param name="ACCIDENT PLACE1" cache="true"/>
+					</field>
+				</process>
+				<process id="12" type="setString">
+					<field name="ACCIDENT PLACE2">
+						<param name="ACCIDENT PLACE2" cache="true"/>
+					</field>
+				</process>
+				<process id="13" type="setString">
+					<field name="natureCode1">
+						<param name="natureCode1" cache="true"/>
+					</field>
+				</process>
+				<!-- process id="14" type="setString">
+					<field name="natureCode2">
+						<param name="natureCode2" cache="true"/>
+					</field>
+				</process-->
+				<process id="15" type="setString">
+					<field name="user">
+						<param name="user">SI</param>
+					</field>
+				</process>
+				<process id="16" type="setString">
+					<field name="printform">
+						<param name="printform">N</param>
+					</field>
+				</process>
+				<process id="17" type="sendEnter" checkerror="true"/>
+				<process id="18" type="sendEnter" checkerror="true"/>
+				<process id="19" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.ICL0010SPopupPanel</class-name>
+					<method-name>setConfirm</method-name>
+					<params>
+					</params>
+				</process>
+				<process id="20" type="sendEnter" checkerror="true"/>
+				<process id="21" type="setString">
+					<field name="detail">
+						<param name="detail">N</param>
+					</field>
+				</process>
+				<process id="22" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="23" type="sendEnter" checkerror="true"/>
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="Policy Record is not found - Continue (Y/N)">
+			<process id="1" type="setString">
+				<field name="confirm">
+					<param name="confirm">N</param>
+				</field>
+			</process>
+			<process id="2" type="sendEnter" checkerror=""/>
+			<process id="3" type="sendF3"/>
+			<process id="4" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="5" type="sendEnter" checkerror=""/>
+			<process id="6" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="New Claim Exists - Do you want to enter another Claim? - Confirm (Y/N)">
+			<process id="1" type="setString">
+				<field name="confirm">
+					<param name="confirm">Y</param>
+				</field>
+			</process>
+			<process id="2" type="sendEnter" checkerror=""/>
+			<!--process id="3" type="sendF3"/>
+			<process id="4" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="5" type="sendEnter" checkerror=""/>
+			<process id="6" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process-->
+		</error>
+		<error code="Branch Code is invalid">
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="Nature Code is invalid">
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="Policy Cert Number is invalid">
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="Loss Date is Invalid">
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="Loss Date is not within the Period Of Insurance - Continue? (Y/N)">
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="Effective Date is greater than Loss Date! Continue? (Y/N)">
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="Review Date is less then Registration Date">
+			<process id="1" type="setString">
+					<field name="REVIEW_DATE">
+						<param name="CURRENT_DATE" cache="true"/>
+					</field>
+			</process>
+			<process id="2" type="sendEnter"/>
+			<process id="3" type="sendEnter"/>
+			<process id="4" type="class">
+				<class-name>th.co.msat.motor.as400interface.process.ICL0010SPopupPanel</class-name>
+					<method-name>setConfirm</method-name>
+					<params>
+				</params>
+			</process>
+			<process id="5" type="setString">
+					<field name="detail">
+						<param name="detail">N</param>
+					</field>
+				</process>
+				<process id="6" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="7" type="sendEnter" checkerror="true"/>
+		</error>
+		<error code="Review Date is invalid">
+			<process id="1" type="setString">
+					<field name="REVIEW_DATE">
+						<param name="CURRENT_DATE" cache="true"/>
+					</field>
+			</process>
+			<process id="2" type="sendEnter"/>
+			<process id="3" type="sendEnter"/>
+			<process id="4" type="class">
+				<class-name>th.co.msat.motor.as400interface.process.ICL0010SPopupPanel</class-name>
+					<method-name>setConfirm</method-name>
+					<params>
+				</params>
+			</process>
+			<process id="5" type="setString">
+					<field name="detail">
+						<param name="detail">N</param>
+					</field>
+				</process>
+				<process id="6" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="7" type="sendEnter" checkerror="true"/>
+		</error>
+		<error code="Warning:Loss Date is greater than or equal to Effective Date of Endt.Cancell">
+			<process id="0" type="sendEnter"/>
+			<process id="1" type="sendF3"/>
+			<process id="2" type="setString">
+				<field name="new menu">
+					<param name="new menu">1</param>
+				</field>
+			</process>
+			<process id="3" type="sendEnter" checkerror=""/>
+			<process id="4" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+		<error code="default">
+			<process id="0" type="sendF12"/>
+			<process id="1" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+		</error>
+	</error-handler>
+</page>

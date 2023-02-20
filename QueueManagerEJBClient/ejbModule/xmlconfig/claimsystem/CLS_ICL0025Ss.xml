@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="ICL0025S"-->
+<page id="CLS_ICL0025S">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>	
+	<fields>
+		<field name="select1">
+			<row>10</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select2">
+			<row>11</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select3">
+			<row>12</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select4">
+			<row>13</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select5">
+			<row>14</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select6">
+			<row>15</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select7">
+			<row>16</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select8">
+			<row>17</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select9">
+			<row>18</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select10">
+			<row>19</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select11">
+			<row>20</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="select12">
+			<row>21</row>
+			<col>74</col>
+			<len>1</len>
+		</field>
+		<field name="confirm">
+			<row>23</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		
+		<field name="print_ok">
+			<row>23</row>
+			<col>54</col>
+			<len>1</len>
+		</field>
+		
+	</fields>
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1.1" type="setString">
+					<field name="select1">
+						<param name="select1">Y</param>
+					</field>
+				</process>
+				<process id="1.2" type="setString">
+					<field name="select2">
+						<param name="select2">N</param>
+					</field>
+				</process>
+				<process id="1.3" type="setString">
+					<field name="select3">
+						<param name="select3">N</param>
+					</field>
+				</process>
+				<process id="1.4" type="setString">
+					<field name="select4">
+						<param name="select4">N</param>
+					</field>
+				</process>
+				<process id="1.5" type="setString">
+					<field name="select5">
+						<param name="select5">N</param>
+					</field>
+				</process>
+				<process id="1.6" type="setString">
+					<field name="select6">
+						<param name="select6">N</param>
+					</field>
+				</process>
+				<process id="1.7" type="setString">
+					<field name="select7">
+						<param name="select7">N</param>
+					</field>
+				</process>
+				<process id="1.8" type="setString">
+					<field name="select8">
+						<param name="select8">N</param>
+					</field>
+				</process>
+				<process id="1.9" type="setString">
+					<field name="select9">
+						<param name="select9">N</param>
+					</field>
+				</process>
+				<process id="1.10" type="setString">
+					<field name="select10">
+						<param name="select10">N</param>
+					</field>
+				</process>
+				<process id="1.11" type="setString">
+					<field name="select11">
+						<param name="select11">N</param>
+					</field>
+				</process>
+				<process id="1.12" type="setString">
+					<field name="select12">
+						<param name="select12">N</param>
+					</field>
+				</process>
+			
+				
+				<process id="3" type="sendF3"/>
+				<process id="4" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="5" type="sendEnter" />
+		
+				
+				<process id="6" type="sendEnter" />
+				<process id="7" type="setString">
+					<field name="print_ok">
+						<param name="print_ok">Y</param>
+					</field>
+				</process>
+				<process id="8" type="sendEnter" />		
+				
+				<process id="9" type="sendF3" />			
+				<process id="10" type="sendF2" />					
+				<process id="11" type="setTopProcessState">
+					<param name="state">STATE_FINISH</param>
+				</process>
+				
+				<!-- C01020 -->
+				
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="C01020">						
+			<process id="3.2" type="sendEnter"/>			
+		</error>
+		
+		<error code="Cursor in protected area of display.">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Cursor in protected area of display.</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+		
+	</error-handler>
+</page>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="IMNUCL02S"-->
+<page id="CLS_IMNUCL02S">
+    <fields>
+        <field name="OPTION">
+            <row>22</row>
+            <col>22</col>
+            <len>1</len>
+        </field>
+    </fields>
+    <processes>
+        <switch>
+            <case name="general">
+                <process id="1" type="setString">
+                    <field name="OPTION">
+                        <param name="OPTION">1</param>
+                    </field>
+                </process>
+                <process id="2" type="sendEnter" checkerror="false"/>
+            </case>
+        </switch>
+    </processes>
+    <error-panel>
+        <start-row>24</start-row>
+        <end-row>24</end-row>
+        <start-col>1</start-col>
+        <length>80</length>
+    </error-panel>
+    <error-handler>
+        <error code="Claim Number is not found">
+            <process id="1" type="sendF3"/>
+            <process id="2" type="sendF2"/>
+            <process id="3" type="setString">
+                <field name="OPTION">
+                    <param name="OPTION">1</param>
+                </field>
+            </process>
+            <process id="4" type="sendEnter" checkerror="false"/>
+        </error>
+        <error code="Claim is already closed">
+            <process id="1" type="sendF3"/>
+            <process id="2" type="sendF2"/>
+            <process id="3" type="setString">
+                <field name="OPTION">
+                    <param name="OPTION">1</param>
+                </field>
+            </process>
+            <process id="4" type="sendEnter" checkerror="false"/>
+        </error>
+        
+        <error code="Cursor in protected area of display.">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Cursor in protected area of display.</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+    </error-handler>
+</page>

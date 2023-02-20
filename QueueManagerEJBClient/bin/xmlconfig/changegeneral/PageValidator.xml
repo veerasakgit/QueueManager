@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<pages>
+	<!--page name="Sign On"-->
+	<page name="CHGN_SignOn">
+		<class>th.co.msat.motor.as400interface.page.SignOnPage</class>
+		<!--config-file>SignOn.xml</config-file-->
+		<config-file>CHGN_SignOn.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>36</col>
+			<!-- validation value count+1-->
+			<len>8</len>
+			<value>Sign On</value>
+		</page-validator>
+	</page>
+	<!--page name="Main Menu : E-Transfer"-->
+	<page name="CHGN_ManiMenu">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ManiMenu.xml</config-file-->
+		<config-file>CHGN_ManiMenu.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>29</col>
+			<len>23</len>
+			<value>MAIN MENU : E-TRANSFER</value>
+		</page-validator>
+	</page>
+	<!--page name="Main Menu"-->
+	<page name="CHGN_ManiMenu2">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ManiMenu2.xml</config-file-->
+		<config-file>CHGN_ManiMenu2.xml</config-file>
+		<page-validator id="1">
+			<row>5</row>
+			<col>7</col>
+			<len>35</len>
+			<value>1. ..... Claim Registration Maint.</value>
+		</page-validator>
+	</page>
+	<!--page name="Claim Register Maintenance Menu"-->
+	<page name="CHGN_IMNUCL02S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ClaimRegisterMaintenanceMenu.xml</config-file-->
+		<config-file>CHGN_IMNUCL02S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>69</col>
+			<len>10</len>
+			<value>IMNUCL02S</value>
+		</page-validator>
+	</page>
+	<!--page name="ICL0010S"-->
+	<page name="CHGN_ICL0010S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ICL0010S.xml</config-file-->
+		<config-file>CHGN_ICL0010S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>68</col>
+			<len>9</len>
+			<value>ICL0010S</value>
+		</page-validator>
+	</page>
+	<!--page name="Claim Register ICL1070S"-->
+	<page name="CHGN_ICL1070S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ICL1070S.xml</config-file-->
+		<config-file>CHGN_ICL1070S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>70</col>
+			<len>9</len>
+			<value>ICL1070S</value>
+		</page-validator>
+	</page>
+	<!--page name="Claim Register ICL0011S"-->
+	<page name="CHGN_ICL0011S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ICL0011S.xml</config-file-->
+		<config-file>CHGN_ICL0011S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>68</col>
+			<len>9</len>
+			<value>ICL0011S</value>
+		</page-validator>
+	</page>
+	<!--page name="Claim Register ICL0020S"-->
+	<page name="CHGN_ICL0020S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ICL0020S.xml</config-file-->
+		<config-file>CHGN_ICL0020S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>68</col>
+			<len>9</len>
+			<value>ICL0020S</value>
+		</page-validator>
+	</page>
+	<!--page name="ICL0060S"-->
+	<page name="CHGN_ICL0060S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ICL0060S.xml</config-file-->
+		<config-file>CHGN_ICL0060S.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>68</col>
+			<len>9</len>
+			<value>ICL0060S</value>
+		</page-validator>
+	</page>
+</pages>

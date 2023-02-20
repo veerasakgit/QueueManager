@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="ICW1105S"-->
+<page id="UNW_ICW1105S">
+	<error-panel>
+	
+	</error-panel>	
+	<fields>
+		<field name="confirm">
+			<row>23</row>
+			<col>67</col>
+			<len>1</len>
+		</field>
+		<field name="cover_type">
+			<row>6</row>
+			<col>13</col>
+			<len>2</len>
+		</field>
+		<field name="class_type">
+			<row>6</row>
+			<col>40</col>
+			<len>3</len>
+		</field>
+		<field name="licen_no">
+			<row>6</row>
+			<col>64</col>
+			<len>16</len>
+		</field>
+		
+		<field name="chassis_no">
+			<row>7</row>
+			<col>13</col>
+			<len>16</len>
+		</field>
+		<field name="veh_code">
+			<row>7</row>
+			<col>40</col>
+			<len>3</len>
+		</field>
+		<!--  -->
+		<field name="driver">
+			<row>7</row>
+			<col>54</col>
+			<len>1</len>
+		</field>
+		<!--  -->
+		
+		<field name="body">
+			<row>7</row>
+			<col>64</col>
+			<len>10</len>
+		</field>
+		<field name="engine">
+			<row>8</row>
+			<col>13</col>
+			<len>16</len>
+		</field>
+		<field name="year">
+			<row>8</row>
+			<col>40</col>
+			<len>2</len>
+		</field>
+		<field name="seat">
+			<row>8</row>
+			<col>52</col>
+			<len>3</len>
+		</field>
+		<field name="displ">
+			<row>8</row>
+			<col>64</col>
+			<len>4</len>
+		</field>
+
+		<field name="medical">
+			<row>10</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		<field name="passenger">
+			<row>11</row>
+			<col>15</col>
+			<len>2</len>
+		</field>
+		<field name="benef">
+			<row>11</row>
+			<col>30</col>
+			<len>39</len>
+		</field>
+		
+	
+		<field name="dob1">
+			<row>13</row>
+			<col>6</col>
+			<len>10</len>
+		</field>
+		<field name="occ1">
+			<row>13</row>
+			<col>36</col>
+			<len>4</len>
+		</field>
+		<field name="lic_no1">
+			<row>13</row>
+			<col>48</col>
+			<len>10</len>
+		</field>		
+		<field name="id_no1">
+			<row>13</row>
+			<col>65</col>
+			<len>15</len>
+		</field>
+		
+		<field name="dob2">
+			<row>14</row>
+			<col>6</col>
+			<len>10</len>
+		</field>
+		<field name="occ2">
+			<row>14</row>
+			<col>36</col>
+			<len>4</len>
+		</field>
+		<field name="lic_no2">
+			<row>14</row>
+			<col>48</col>
+			<len>10</len>
+		</field>		
+		<field name="id_no2">
+			<row>14</row>
+			<col>65</col>
+			<len>15</len>
+		</field>
+		
+		<field name="sex1">
+			<row>16</row>
+			<col>6</col>
+			<len>1</len>
+		</field>		
+		<field name="name1">
+			<row>16</row>
+			<col>13</col>
+			<len>39</len>
+		</field>
+		
+		<field name="sex2">
+			<row>17</row>
+			<col>6</col>
+			<len>1</len>
+		</field>		
+		<field name="name2">
+			<row>17</row>
+			<col>13</col>
+			<len>39</len>
+		</field>
+	
+		<field name="basis">
+			<row>16</row>
+			<col>65</col>
+			<len>14</len>
+		</field>
+		
+		<field name="brand">
+			<row>18</row>
+			<col>8</col>
+			<len>5</len>
+		</field>
+		<field name="model">
+			<row>19</row>
+			<col>8</col>
+			<len>5</len>
+		</field>
+		<field name="submodel">
+			<row>19</row>
+			<col>72</col>
+			<len>6</len>
+		</field>
+		<field name="color">
+			<row>21</row>
+			<col>9</col>
+			<len>2</len>
+		</field>
+		<field name="regdate">
+			<row>21</row>
+			<col>22</col>
+			<len>10</len>
+		</field>
+
+		<field name="accessories">
+			<row>21</row>
+			<col>60</col>
+			<len>1</len>
+		</field>
+		<field name="territory">
+			<row>21</row>
+			<col>75</col>
+			<len>3</len>
+		</field>
+		<!-- send enter -->
+		
+		<field name="suminsured">
+			<row>7</row>
+			<col>46</col>
+			<len>8</len>
+		</field>
+		<field name="premiumry">
+			<row>8</row>
+			<col>64</col>
+			<len>8</len>
+		</field>
+		
+		<field name="othdiscpc">
+			<row>22</row>
+			<col>19</col>
+			<len>8</len>
+		</field>
+		
+		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendEnter" />
+				
+				<process id="2" type="setString">
+					<field name="cover_type">
+						<param name="cover_type" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="3" type="setString">
+					<field name="class_type">
+						<param name="class_type" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="4" type="setString">
+					<field name="licen_no">
+						<param name="licen_no" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5" type="setString">
+					<field name="chassis_no">
+						<param name="chassis_no" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="6" type="setString">
+					<field name="veh_code">
+						<param name="veh_code" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="6.1" type="setString">
+					<field name="body">
+						<param name="body" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="7" type="setString">
+					<field name="driver">
+						<param name="driver" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="8" type="setString">
+					<field name="body">
+						<param name="body" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="9" type="setString">
+					<field name="engine">
+						<param name="engine" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="10" type="setString">
+					<field name="year">
+						<param name="year" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="11" type="setString">
+					<field name="seat">
+						<param name="seat" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="12" type="setString">
+					<field name="displ">
+						<param name="displ" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="13" type="setString">
+					<field name="medical">
+						<param name="medical" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="14" type="setString">
+					<field name="passenger">
+						<param name="passenger" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="15" type="setString">
+					<field name="benef">
+						<param name="benef" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="16" type="setString">
+					<field name="dob1">
+						<param name="dob1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="17" type="setString">
+					<field name="occ1">
+						<param name="occ1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="18" type="setString">
+					<field name="lic_no1">
+						<param name="lic_no1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="19" type="setString">
+					<field name="id_no1">
+						<param name="id_no1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="20" type="setString">
+					<field name="dob2">
+						<param name="dob2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="21" type="setString">
+					<field name="occ2">
+						<param name="occ2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="22" type="setString">
+					<field name="lic_no2">
+						<param name="lic_no2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="23" type="setString">
+					<field name="id_no2">
+						<param name="id_no2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<!-- sex -->
+				<process id="24" type="setString">
+					<field name="sex1">
+						<param name="sex1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>				
+				<process id="25" type="setString">
+					<field name="name1">
+						<param name="name1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="26" type="setString">
+					<field name="basis">
+						<param name="basis" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="27" type="setString">
+					<field name="sex2">
+						<param name="sex2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>				
+				<process id="28" type="setString">
+					<field name="name2">
+						<param name="name2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<!-- brand -->
+				<process id="29" type="setString">
+					<field name="brand">
+						<param name="brand" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="30" type="setString">
+					<field name="model">
+						<param name="model" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+			
+				<process id="31" type="setString">
+					<field name="submodel">
+						<param name="submodel" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="32" type="setString">
+					<field name="color">
+						<param name="color" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="33" type="setString">
+					<field name="regdate">
+						<param name="regdate" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="34" type="setString">
+					<field name="accessories">
+						<param name="accessories" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="35" type="setString">
+					<field name="territory">
+						<param name="territory" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="36" type="sendEnter" />
+				<process id="37" type="sendF3" />
+				<process id="38" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>				
+				<process id="40" type="sendEnter"  />
+				<!-- end page -->
+				
+				<process id="41" type="setString">
+					<field name="suminsured">
+						<param name="suminsured" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="42" type="setString">
+					<field name="premiumry">
+						<param name="premiumry" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+			
+				<process id="43" type="sendEnter"  />
+				<process id="44" type="sendF3" />
+				
+				<process id="45" type="setString">
+					<field name="othdiscpc">
+						<param name="othdiscpc" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="46" type="sendF3" />
+				<process id="47" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>				
+				<process id="48" type="sendEnter"  />
+				
+			</case>	
+		</switch>
+	</processes>
+	<error-handler>
+		
+		
+	</error-handler>
+</page>

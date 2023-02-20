@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="ICL1070S"-->
+<page id="CLS_ICL1070S">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="clause_code">
+			<row>24</row>
+			<col>17</col>
+			<len>3</len>
+		</field>
+		<field name="surveyed_by">
+			<row>6</row>
+			<col>26</col>
+			<len>25</len>
+		</field>
+		<field name="location_of_loss">
+			<row>7</row>
+			<col>26</col>
+			<len>51</len>
+		</field>
+		<field name="location_of_loss2">
+			<row>8</row>
+			<col>26</col>
+			<len>51</len>
+		</field>
+		<field name="province_of_loss">
+			<row>9</row>
+			<col>7</col>
+			<len>20</len>
+		</field>
+		<field name="item_no">
+			<row>10</row>
+			<col>26</col>
+			<len>3</len>
+		</field>
+		
+		<!-- edit for nok -->
+		<field name="survey_report_no">
+			<row>11</row>
+			<col>7</col>
+			<len>69</len>
+		</field>	
+
+		<!-- edit by nok -->
+		<field name="claimant">
+			<row>12</row>
+			<col>7</col>
+			<len>69</len>
+		</field>
+		
+		<!-- edit by nok -->
+		<field name="notification_no">
+			<row>14</row>
+			<col>7</col>
+			<len>69</len>
+		</field>
+		
+		<field name="invoice_no">
+			<row>19</row>
+			<col>26</col>
+			<len>19</len>
+		</field>
+		<field name="recovery">
+			<row>22</row>
+			<col>26</col>
+			<len>1</len>
+		</field>
+		<field name="time_bar">
+			<row>22</row>
+			<col>56</col>
+			<len>4</len>
+		</field>
+		<field name="confirm">
+			<row>24</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		
+		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendF10"/>
+				<process id="2" type="setString">
+					<field name="clause_code">
+						<param name="clause_code">CF1</param>
+					</field>
+				</process>
+				<process id="3" type="sendEnter"/>
+				
+				<process id="4" type="setString">
+					<field name="surveyed_by">
+						<param name="SURVEYEDBY" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="5" type="setString">
+					<field name="location_of_loss">
+						<param name="LOCATION_OF_LOSS" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="5.1" type="setString">
+					<field name="location_of_loss2">
+						<param name="LOCATION_OF_LOSS2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="6" type="setString">
+					<field name="province_of_loss">
+						<param name="PROVINCE" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<process id="7" type="setString">
+					<field name="item_no">
+						<param name="ITEM_NO" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<process id="8" type="setString">
+					<field name="survey_report_no">
+						<param name="SURVEY_REPORT_NO" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<!-- edit by Praijittra K. 25/02/2010 -->
+				<process id="9" type="setString">
+					<field name="claimant">
+						<param name="CLAIMANT" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<!-- edit by Praijittra K. 25/02/2010 -->
+				<process id="11" type="setString">
+					<field name="notification_no">
+						<param name="NOTIFICATION NO." type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				<process id="16" type="setString">
+					<field name="invoice_no">
+						<param name="INVOICENO" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				<process id="17" type="setString">
+					<field name="recovery">
+						<param name="RECOVERY" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="18" type="setString">
+					<field name="time_bar">
+						<param name="TIMEBAR" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="19" type="sendEnter"/>
+				<process id="20" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="21" type="sendEnter"/>
+				
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+	
+		<error code="Cursor in protected area of display.">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Cursor in protected area of display.</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+
+	</error-handler>
+</page>

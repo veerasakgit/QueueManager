@@ -1,0 +1,33 @@
+#gohome {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 55px; TEXT-INDENT: -5000px; HEIGHT: 50px
+}
+centerme {
+	TEXT-ALIGN: center
+}
+#p_nav_header {
+	BACKGROUND: url(../images/header_navbg.gif) repeat-x left top; MARGIN: 0px auto; OVERFLOW: visible; WIDTH: 974px; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #ccc 1px solid; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: relative
+}
+#new_header {
+	BACKGROUND: url(../images/header_logo.gif) no-repeat 1px 1px; WIDTH: 100%; ZOOM: 1; POSITION: relative; TEXT-ALIGN: left
+}
+#primenu {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 7px 0px 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: relative
+}
+#primenu LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px
+}
+#primenu LI A {
+	PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 10px; COLOR: #666; PADDING-TOP: 20px; TEXT-DECORATION: none
+}
+#primenu LI A:hover {
+	TEXT-DECORATION: underline
+}
+#primenu LI.on {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/header_selected.gif) repeat-x left bottom
+}
+#primenu LI.on A {
+	FONT-WEIGHT: bold
+}
+#primenu LI.on A:hover {
+	TEXT-DECORATION: none
+}

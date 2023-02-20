@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="MCL970S"-->
+<page id="RQP_MCL970S">
+	<error-panel>
+		<start-row>23</start-row>
+		<end-row>23</end-row>
+		<start-col>1</start-col>
+		<length>68</length>
+	</error-panel>
+	
+	<fields>
+		<field name="paymentDateFrm">
+			<row>4</row>
+			<col>33</col>
+			<len>8</len>
+		</field>
+		<field name="paymentDateTo">
+			<row>6</row>
+			<col>33</col>
+			<len>8</len>
+		</field>
+		<field name="classes">
+			<row>8</row>
+			<col>33</col>
+			<len>1</len>
+		</field>
+		<field name="classList">
+			<row>8</row>
+			<col>41</col>
+			<len>14</len>
+		</field>
+		<field name="payeeCode">
+			<row>10</row>
+			<col>33</col>
+			<len>4</len>
+		</field>
+		<field name="payeeName">
+			<row>10</row>
+			<col>40</col>
+			<len>41</len>
+		</field>
+		<field name="entryDateFrm">
+			<row>12</row>
+			<col>33</col>
+			<len>8</len>
+		</field>
+		<field name="entryDateTo">
+			<row>14</row>
+			<col>33</col>
+			<len>8</len>
+		</field>
+		<field name="userId">
+			<row>16</row>
+			<col>33</col>
+			<len>3</len>
+		</field>
+		<field name="amnt">
+			<row>18</row>
+			<col>33</col>
+			<len>16</len>
+		</field>
+		<field name="typeOfPayment">
+			<row>20</row>
+			<col>33</col>
+			<len>3</len>
+		</field>
+		<field name="confirm">
+			<row>23</row>
+			<col>79</col>
+			<len>1</len>
+		</field>
+		<field name="paymentTypeList">
+			<start-row>20</start-row>
+			<end-row>21</end-row>
+			<col>38</col>
+			<len>33</len>
+		</field>
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="setString">
+					<field name="paymentDateFrm">
+						<param name="paymentDateFrm" cache="true"/>
+					</field>
+				</process>
+				<process id="2" type="sendEnter"/>
+				
+				<process id="3" type="setString">
+					<field name="paymentDateTo">
+						<param name="paymentDateTo" cache="true"/>
+					</field>
+				</process>
+				<process id="4" type="sendEnter"/>
+				
+				<process id="5" type="setString">
+					<field name="classes">
+						<param name="classes" cache="true"/>
+					</field>
+				</process>
+				<process id="6" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.MCL970SScrap</class-name>
+					<method-name>chkClass</method-name>
+				</process>
+				
+				<process id="7" type="setString">
+					<field name="payeeCode">
+						<param name="payeeCode" cache="true"/>
+					</field>
+				</process>
+				<process id="8" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.MCL970SScrap</class-name>
+					<method-name>chkPayeeCode</method-name>
+				</process>
+				
+				<process id="9" type="setString">
+					<field name="entryDateFrm">
+						<param name="entryDateFrm" cache="true"/>
+					</field>
+				</process>
+				<process id="10" type="sendEnter"/>
+				
+				<process id="11" type="setString">
+					<field name="entryDateTo">
+						<param name="entryDateTo" cache="true"/>
+					</field>
+				</process>
+				<process id="12" type="sendEnter"/>
+				
+				<process id="13" type="setString">
+					<field name="userId">
+						<param name="userId" cache="true"/>
+					</field>
+				</process>
+				<process id="14" type="sendEnter"/>
+				
+				<process id="15" type="setString">
+					<field name="amnt">
+						<param name="amnt" cache="true"/>
+					</field>
+				</process>
+				<process id="16" type="sendEnter"/>
+				
+				<process id="17" type="setString">
+					<field name="typeOfPayment">
+						<param name="typeOfPayment" cache="true"/>
+					</field>
+				</process>
+				<process id="18" type="sendEnter"/>
+				<process id="19" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.MCL970SScrap</class-name>
+					<method-name>chkTypeOfPayment</method-name>
+				</process>
+				
+				<process id="20" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>
+				<process id="21" type="sendEnter" checkerror="true"/>
+				
+				<process id="22" type="setTopProcessState">
+					<param name="state">STATE_FINISH</param>
+				</process>
+			</case>
+		</switch>
+	</processes>
+	
+	<error-handler>
+		<error code="Cursor in protected area of display.">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Cursor in protected area of display.</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+		
+		<error code="*** NOT FOUND RUNNING NO. ***">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">*** NOT FOUND RUNNING NO. ***</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+	</error-handler>
+</page>

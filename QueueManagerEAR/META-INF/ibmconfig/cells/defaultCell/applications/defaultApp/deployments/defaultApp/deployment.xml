@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1224816412626">
+  <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1224816412626" startingWeight="10" warClassLoaderPolicy="SINGLE">
+    <modules xmi:type="appdeployment:EJBModuleDeployment" xmi:id="EJBModuleDeployment_1224816412626" startingWeight="5000" uri="QueueManagerEJB.jar"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1228978149807" startingWeight="10000" uri="QueueManagerWEB.war"/>
+    <classloader xmi:id="Classloader_1224816412626" mode="PARENT_FIRST">
+      <libraries xmi:id="LibraryRef_1229916425019" libraryName="AS400_Driver"/>
+    </classloader>
+  </deployedObject>
+</appdeployment:Deployment>

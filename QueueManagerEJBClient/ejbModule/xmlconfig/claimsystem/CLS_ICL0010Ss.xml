@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="ICL0010S"-->
+<page id="CLS_ICL0010S">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>	
+	<fields>
+		<field name="FUNCTION">
+			<row>3</row>
+			<col>7</col>
+			<len>1</len>
+		</field>
+		<field name="BRANCH">
+			<row>4</row>
+			<col>20</col>
+			<len>3</len>
+		</field>
+		
+		<field name="CLASSES">
+			<row>4</row>
+			<col>24</col>
+			<len>4</len>
+		</field>
+		<field name="YEAR">
+			<row>4</row>
+			<col>29</col>
+			<len>2</len>
+		</field>
+		<field name="POLICYNO">
+			<row>4</row>
+			<col>32</col>
+			<len>6</len>
+		</field>
+		<field name="clm_branch">
+			<row>4</row>
+			<col>63</col>
+			<len>2</len>
+		</field>
+		<field name="clm_class">
+			<row>4</row>
+			<col>68</col>
+			<len>1</len>
+		</field>
+		<field name="clm_year">
+			<row>4</row>
+			<col>70</col>
+			<len>2</len>
+		</field>
+		<field name="clm_no">
+			<row>4</row>
+			<col>73</col>
+			<len>6</len>
+		</field>
+		<field name="DATEOFLOSS">
+			<row>6</row>
+			<col>21</col>
+			<len>8</len>
+		</field>
+		<field name="CONFIRM">
+			<row>23</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		
+		<!-- part two -->
+		<field name="NOTIFICATIONDATE">
+			<row>7</row>
+			<col>20</col>
+			<len>8</len>
+		</field>
+		<field name="INTEREST">
+			<row>16</row>
+			<col>20</col>
+			<len>39</len>
+		</field>
+		<field name="NATURECODE">
+			<row>17</row>
+			<col>20</col>
+			<len>3</len>
+		</field>
+		<field name="NATURENAME">
+			<row>17</row>
+			<col>24</col>
+			<len>39</len>
+		</field>
+		<field name="ENQUIRYKEY">
+			<row>19</row>
+			<col>20</col>
+			<len>15</len>
+		</field>
+		<field name="REVIEWCODE">
+			<row>20</row>
+			<col>34</col>
+			<len>2</len>
+		</field>
+		<field name="PRINTCLAIM">
+			<row>19</row>
+			<col>69</col>
+			<len>1</len>
+		</field>
+		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="setString">
+					<field name="FUNCTION">
+						<param name="FUNCTION">0</param>
+					</field>
+				</process>
+				<process id="2" type="setString">
+					<field name="BRANCH">
+						<param name="BRANCH" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="3" type="setString">
+					<field name="CLASSES">
+						<param name="CLASSES" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="4" type="setString">
+					<field name="YEAR">
+						<param name="YEAR" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5" type="setString">
+					<field name="POLICYNO">
+						<param name="POLICYNO" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="6" type="setString">
+					<field name="DATEOFLOSS">
+						<param name="LOSSDATE" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<process id="7" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.GetClaimNumberICL0010S</class-name>
+					<method-name>setClaimNumber</method-name>
+					<params></params>
+				</process>
+				
+				<process id="8" type="sendEnter" checkerror="true" />
+				
+				<process id="9" type="class">
+					<class-name>th.co.msat.motor.as400interface.process.GetClaimNumberICL0010S</class-name>
+					<method-name>getClaimNumber</method-name>
+					<params></params>
+				</process>
+				 
+				<!-- part two -->
+				<process id="21" type="setString">
+					<field name="NOTIFICATIONDATE">
+						<param name="NOTIFICATIONDATE" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="22" type="setString">
+					<field name="INTEREST">
+						<param name="INTEREST" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="23" type="setString">
+					<field name="NATURECODE">
+						<param name="NATURECODE" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="24" type="class" checkerror="true">
+					<class-name>th.co.msat.motor.as400interface.process.ICL0010SPopupPanel2</class-name>
+					<method-name>setNatureName</method-name>
+					<params></params>
+				</process>
+				<!--process id="24" type="setString">
+					<field name="ENQUIRYKEY">
+						<param name="ENQUIRYKEY" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process-->
+						
+				<process id="25" type="setString">
+					<field name="PRINTCLAIM">
+						<param name="PRINTCLAIM">R</param>
+					</field>
+				</process>
+				<process id="26" type="setString">
+					<field name="REVIEWCODE">
+						<param name="REVIEWCODE" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>	
+				
+				
+				
+				
+				<process id="27" type="sendEnter" checkerror="true"/>
+				
+			
+				
+				<process id="28" type="class" checkerror="true">
+					<class-name>th.co.msat.motor.as400interface.process.ICL0010SPopupPanel2</class-name>
+					<method-name>setConfirm</method-name>
+					<params></params>
+				</process>
+		
+				<process id="29" type="setString">
+					<field name="CONFIRM">
+						<param name="CONFIRM">Y</param>
+					</field>
+				</process>				
+				<process id="30" type="sendEnter" checkerror="true" />
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="New Claim Exists - Do you want to enter another Claim? - Confirm (Y/N)">
+			<process id="3.1" type="setString">
+				<field name="CONFIRM">
+					<param name="CONFIRM">Y</param>
+				</field>
+			</process>		
+			<process id="3.2" type="sendEnter"/>			
+		</error>
+		<error code="Loss Date is not within the Period Of Insurance - Continue? (Y/N)">	
+			<process id="3.1" type="setString">
+				<field name="CONFIRM">
+					<param name="CONFIRM">Y</param>
+				</field>
+			</process>				
+			<process id="3.2" type="sendEnter"/>			
+		</error>
+		<error code="Warning : Registration Date in not within the current month!">						
+			<process id="3.2" type="sendEnter" />			
+		</error>
+		
+		<error code="Cursor in protected area of display.">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Cursor in protected area of display.</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+		
+		<error code="Effective Date is not within the Period Of Insurance!">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Effective Date is not within the Period Of Insurance!</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+		
+		<error code="Print Option is invalid">
+			<process id="1" type="cache">
+				<param name="ERROR_MESSAGE" type="java.lang.String">Print Option is invalid</param>
+			</process>
+			<process id="2" type="setTopProcessState">
+				<param name="state">STATE_ERROR</param>
+			</process>
+			<process id="3" type="stop"/>
+		</error>
+	</error-handler>
+</page>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="IUW0010S"-->
+<page id="UNW_IUW0010S">	
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>	
+	<fields>
+		<field name="generate_policy_no">
+			<row>24</row>
+			<col>70</col>
+			<len>1</len>
+		</field>
+		<field name="package_code">
+			<row>5</row>
+			<col>23</col>
+			<len>4</len>
+		</field>
+		<field name="agent_code">
+			<row>6</row>
+			<col>19</col>
+			<len>5</len>
+		</field>
+		
+		<field name="customer_code">
+			<row>7</row>
+			<col>19</col>
+			<len>5</len>
+		</field>
+		<field name="customer_sub_code">
+			<row>7</row>
+			<col>25</col>
+			<len>3</len>
+		</field>
+		<!-- customer_name_eng -->
+		<field name="customer_name">
+			<row>7</row>
+			<col>31</col>
+			<len>39</len>
+		</field>
+		<!--  -->
+		<field name="customer_add1">
+			<row>9</row>
+			<col>19</col>
+			<len>29</len>
+		</field>
+		<field name="customer_add2">
+			<row>10</row>
+			<col>19</col>
+			<len>29</len>
+		</field>
+		<field name="customer_add3">
+			<row>11</row>
+			<col>19</col>
+			<len>29</len>
+		</field>
+		
+		<!-- if packagecode .subtring(0,2) == "VH" -->
+		<field name="user_send1">
+			<row>12</row>
+			<col>19</col>
+			<len>29</len>
+		</field>
+		<field name="user_send2">
+			<row>13</row>
+			<col>19</col>
+			<len>29</len>
+		</field>
+		<!-- end packagecode -->
+		<field name="incept_date">
+			<row>14</row>
+			<col>60</col>
+			<len>8</len>
+		</field>
+		<field name="expiry_date">
+			<row>14</row>
+			<col>72</col>
+			<len>8</len>
+		</field>
+		<field name="cover_note_date">
+			<row>17</row>
+			<col>60</col>
+			<len>8</len>
+		</field>
+		
+		<!--  -->
+		<field name="occupation">
+			<row>15</row>
+			<col>19</col>
+			<len>29</len>
+		</field>
+		<field name="customer_type">
+			<row>15</row>
+			<col>66</col>
+			<len>29</len>
+		</field>
+		
+		<!-- confirm -->
+		<field name="confirm">
+			<row>24</row>
+			<col>78</col>
+			<len>1</len>
+		</field>
+		
+		
+		
+		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendEnter" />
+				
+				<process id="2" type="setString">
+					<field name="package_code">
+						<param name="package_code" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="3" type="sendEnter" />
+				
+				<process id="4" type="setString">
+					<field name="agent_code">
+						<param name="agent_code" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="5" type="setString">
+					<field name="customer_code">
+						<param name="customer_code" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="6" type="setString">
+					<field name="customer_sub_code">
+						<param name="customer_sub_code" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="7" type="setString">
+					<field name="customer_name">
+						<param name="customer_name" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="8" type="setString">
+					<field name="customer_add1">
+						<param name="customer_add1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="9" type="setString">
+					<field name="customer_add2">
+						<param name="customer_add2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="10" type="setString">
+					<field name="customer_add3">
+						<param name="customer_add3" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				
+				<process id="11" type="setString">
+					<field name="user_send1">
+						<param name="user_send1" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="12" type="setString">
+					<field name="user_send2">
+						<param name="user_send2" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				
+				<!--  -->
+				<process id="13" type="setString">
+					<field name="incept_date">
+						<param name="incept_date" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="14" type="setString">
+					<field name="expiry_date">
+						<param name="expiry_date" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="15" type="setString">
+					<field name="cover_note_date">
+						<param name="cover_note_date" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="15.1" type="sendEnter"  />
+				
+				<process id="16" type="setString">
+					<field name="occupation">
+						<param name="occupation" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="17" type="setString">
+					<field name="customer_type">
+						<param name="customer_type" type="java.lang.String"
+							cache="true" />
+					</field>
+				</process>
+				<process id="17.1" type="sendEnter"  />
+				
+				<process id="18" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>				
+				<process id="19" type="sendEnter"  />
+			</case>
+		</switch>
+	</processes>
+	
+</page>

@@ -1,0 +1,4 @@
+มีการใส่ Code ผิด ระบบ OD and TP
+N,Q - O,R
+มี message ex's of loss
+มี message INVALID RESERVE CODE

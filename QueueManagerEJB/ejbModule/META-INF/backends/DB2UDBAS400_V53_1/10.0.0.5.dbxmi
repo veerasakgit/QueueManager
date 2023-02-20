@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="A0.0.0.5" name="10.0.0.5">
+  <schemata href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB.schxmi#MSATLIB"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#QUEUETB"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#JOBTB"/>
+  <domain href="DB2UDBAS400_V53_Domain.xmi#SQLVendor_1"/>
+</RDBSchema:RDBDatabase>

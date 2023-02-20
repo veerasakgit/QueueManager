@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="IRN0200S">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="BR">
+			<row>6</row>
+			<col>11</col>
+			<len>3</len>
+		</field>
+		<field name="CLASS">
+			<row>6</row>
+			<col>65</col>
+			<len>4</len>
+		</field>
+		<field name="YEAR">
+			<row>6</row>
+			<col>70</col>
+			<len>2</len>
+		</field>
+		<field name="POL_NO">
+			<row>6</row>
+			<col>73</col>
+			<len>6</len>
+		</field>
+		<field name="NEW_POL_NO">
+			<row>14</row>
+			<col>65</col>
+			<len>4</len>
+		</field>
+		<field name="NEW_YEAR">
+			<row>14</row>
+			<col>70</col>
+			<len>2</len>
+		</field>
+		<field name="OPTION1">
+			<row>16</row>
+			<col>61</col>
+			<len>1</len>
+		</field>
+		<field name="OPTION2">
+			<row>17</row>
+			<col>61</col>
+			<len>1</len>
+		</field>
+		<field name="CONFIRM">
+			<row>24</row>
+			<col>78</col>
+			<len>1</len>
+		</field>	
+	</fields>
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendEnter" />	
+				<process id="2" type="setString">
+					<field name="BR">
+						<param name="BR" cache="true"/>
+					</field>
+				</process>
+				<process id="3" type="setString">
+					<field name="CLASS">
+						<param name="CLASS" cache="true"/>
+					</field>
+				</process>
+				<process id="4" type="setString">
+					<field name="YEAR">
+						<param name="YEAR" cache="true"/>
+					</field>
+				</process>
+				<process id="5" type="setString">
+					<field name="POL_NO">
+						<param name="POL_NO" cache="true"/>
+					</field>
+				</process>
+				<process id="5.1" type="sendEnter" />			
+				<process id="6" type="setString">
+					<field name="NEW_POL_NO">
+						<param name="NEW_POL_NO" cache="true"/>
+					</field>
+				</process>
+				<process id="6.1" type="sendEnter" />	
+				<process id="7" type="setString">
+					<field name="CONFIRM">
+						<param name="CONFIRM">Y</param>
+					</field>
+				</process>
+				<process id="7.1" type="sendEnter" />	
+					
+				<process id="8" type="setString">
+					<field name="OPTION1">
+						<param name="OPTION1">S</param>
+					</field>
+				</process>
+				<process id="9" type="setString">
+					<field name="OPTION2">
+						<param name="OPTION2">R</param>
+					</field>
+				</process>
+				<process id="9.1" type="sendEnter" />	
+				<process id="10" type="setString">
+					<field name="CONFIRM">
+						<param name="CONFIRM">Y</param>
+					</field>
+				</process>
+				<process id="10.1" type="sendEnter" />	
+			</case>	
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="TRANS.DATE NOT WITHIN CURR MONTH ! HIT">
+			<process id="20" type="sendEnter" />	
+		</error>
+	</error-handler>
+	
+</page>

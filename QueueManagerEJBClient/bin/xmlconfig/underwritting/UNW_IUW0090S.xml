@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="IUW0090S"-->
+<page id="UNW_IUW0090S">
+	<error-panel>
+	
+	</error-panel>	
+	<fields>
+		<field name="confirm">
+			<row>23</row>
+			<col>78</col>
+			<len>1</len>
+		</field>		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="sendEnter"  />
+				<process id="2" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>				
+				<process id="3" type="sendEnter"  />
+			</case>	
+		</switch>
+	</processes>
+	<error-handler>
+		
+		
+	</error-handler>
+</page>

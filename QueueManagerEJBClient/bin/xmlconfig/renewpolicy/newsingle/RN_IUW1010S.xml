@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--page id="IUW0010S"-->
+<page id="RN_IUW0010S">
+	<error-panel>
+	
+	</error-panel>	
+	<fields>
+		<field name="print1">
+			<row>10</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print2">
+			<row>11</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print3">
+			<row>12</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print4">
+			<row>13</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print5">
+			<row>14</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print6">
+			<row>15</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print7">
+			<row>16</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print8">
+			<row>17</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print9">
+			<row>18</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print10">
+			<row>19</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print11">
+			<row>20</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		<field name="print12">
+			<row>21</row>
+			<col>73</col>
+			<len>1</len>
+		</field>
+		
+		<field name="confirm">
+			<row>23</row>
+			<col>78</col>
+			<len>1</len>
+		</field>	
+		<field name="print_ok">
+			<row>23</row>
+			<col>54</col>
+			<len>1</len>
+		</field>		
+	</fields>
+	
+	<processes>
+		<switch>
+			<case name="general">
+			
+				<process id="1.1" type="setString">
+					<field name="print1">
+						<param name="print1">N</param>
+					</field>
+				</process>	
+				<process id="1.2" type="setString">
+					<field name="print2">
+						<param name="print2">N</param>
+					</field>
+				</process>	
+				<process id="1.3" type="setString">
+					<field name="print3">
+						<param name="print3">N</param>
+					</field>
+				</process>	
+				<process id="1.4" type="setString">
+					<field name="print4">
+						<param name="print4">N</param>
+					</field>
+				</process>	
+				<process id="1.5" type="setString">
+					<field name="print5">
+						<param name="print5">N</param>
+					</field>
+				</process>	
+				<process id="1.6" type="setString">
+					<field name="print6">
+						<param name="print6">N</param>
+					</field>
+				</process>	
+				<process id="1.7" type="setString">
+					<field name="print7">
+						<param name="print7">N</param>
+					</field>
+				</process>	
+				<process id="1.8" type="setString">
+					<field name="print8">
+						<param name="print8">N</param>
+					</field>
+				</process>	
+				<process id="1.9" type="setString">
+					<field name="print9">
+						<param name="print9">N</param>
+					</field>
+				</process>	
+				<process id="1.10" type="setString">
+					<field name="print10">
+						<param name="print10">N</param>
+					</field>
+				</process>	
+				<process id="1.11" type="setString">
+					<field name="print11">
+						<param name="print11">N</param>
+					</field>
+				</process>	
+				<process id="1.12" type="setString">
+					<field name="print12">
+						<param name="print12">N</param>
+					</field>
+				</process>	
+							
+				<process id="2" type="sendEnter"  />
+				
+				<process id="3" type="sendF3"  />
+				<process id="4" type="setString">
+					<field name="confirm">
+						<param name="confirm">Y</param>
+					</field>
+				</process>				
+				<process id="5" type="sendEnter"  />
+				
+				<!-- end page -->
+				<!-- 
+				<process id="6" type="sendEnter"  />
+				
+				<process id="7" type="setString">
+					<field name="print_ok">
+						<param name="print_ok">Y</param>
+					</field>
+				</process>				
+				<process id="8" type="sendEnter"  />
+				
+				<process id="9" type="sendEnter"  />
+				 -->
+				<!-- end -->
+				<process id="10" type="setTopProcessState">
+					<param name="state">STATE_FINISH</param>
+				</process>
+				
+			</case>	
+		</switch>
+	</processes>
+	<error-handler>
+		
+		
+	</error-handler>
+</page>

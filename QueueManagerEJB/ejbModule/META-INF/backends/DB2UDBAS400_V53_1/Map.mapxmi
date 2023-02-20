@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbrdbmapping:EjbRdbDocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Mapping="Mapping.xmi" xmlns:RDBSchema="RDBSchema.xmi" xmlns:ejb="ejb.xmi" xmlns:ejbrdbmapping="ejbrdbmapping.xmi" xmi:id="EjbRdbDocumentRoot_1222309866778" commandStack="">
+  <helper xmi:type="ejbrdbmapping:RdbSchemaProperies" xmi:id="RdbSchemaProperies_1222309866778" primitivesDocument="DB2UDBAS400_V53"/>
+  <nested xmi:type="ejbrdbmapping:RDBEjbMapper" xmi:id="RDBEjbMapper_1222309866778">
+    <helper xmi:type="ejbrdbmapping:PrimaryTableStrategy" xmi:id="PrimaryTableStrategy_1222309866778">
+      <table href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#QUEUETB"/>
+    </helper>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866778">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#QUEUEID"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866778"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866779">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#QUEUENAME"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866779"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866794">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#SIZE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866794"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866795">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#AVAILABLE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866795"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866796">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#ISTERMINATE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866796"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866797">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#WORKINGTIME"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866797"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866798">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#MESSAGECLASS"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866798"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866799">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#ACTIVATECLASS"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866799"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866800">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#CREATEDATE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866800"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866801">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#CREATETIME"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866801"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866802">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#CREATEUSER"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866802"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866803">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#UPDATEDATE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866803"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866809">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#UPDATETIME"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866809"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866810">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#UPDATEUSER"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866810"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866811">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#UPDATEPROGRAM"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866811"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866812">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#RECORDSTATUS"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866812"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <inputs xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_QUEUETB.tblxmi#QUEUETB"/>
+    <outputs xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ContainerManagedEntity_1222309863966"/>
+  </nested>
+  <nested xmi:type="ejbrdbmapping:RDBEjbMapper" xmi:id="RDBEjbMapper_1222309866809">
+    <helper xmi:type="ejbrdbmapping:PrimaryTableStrategy" xmi:id="PrimaryTableStrategy_1222309866809">
+      <table href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#JOBTB"/>
+    </helper>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866813">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#JOBID"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866813"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866814">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#MESSAGE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866814"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866815">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#STATUS"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866815"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866816">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#PIORITY"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866816"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866817">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#SUBMITDATE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866817"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866818">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#SUBMITTIME"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866818"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866819">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#SUBMITUSER"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866819"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866820">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#UPDATEDATE"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866820"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866825">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#UPDATETIME"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866825"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866826">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#UPDATEUSER"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866826"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866827">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#UPDATEPROGRAM"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866827"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866828">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#RECORDSTATUS"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222309866828"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222309866829">
+      <helper xmi:type="ejbrdbmapping:ForwardFlattenedFKComposer" xmi:id="ForwardFlattenedFKComposer_1222309866825"/>
+      <inputs xmi:type="RDBSchema:RDBReferenceByKey" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#Q_MSATLIB_JOBTB_QUEUEID_00001"/>
+      <outputs xmi:type="ejb:EJBRelationshipRole" href="META-INF/ejb-jar.xml#EJBRelationshipRole_1222309866825"/>
+      <outputs xmi:type="ejb:EJBRelationshipRole" href="META-INF/ejb-jar.xml#EJBRelationshipRole_1222309866826"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1222754305606">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#REFERENCENO"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1222754305606"/>
+      <typeMapping xmi:type="ejbrdbmapping:RDBEjbFieldMapper" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#String-CHAR(1)"/>
+    </nested>
+    <nested xmi:type="ejbrdbmapping:RDBEjbFieldMapper" xmi:id="RDBEjbFieldMapper_1223445782995" optimistic="true">
+      <inputs xmi:type="RDBSchema:RDBColumn" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#JOBGROUP"/>
+      <outputs xmi:type="ejb:CMPAttribute" href="META-INF/ejb-jar.xml#CMPAttribute_1223445782995"/>
+    </nested>
+    <inputs xmi:type="RDBSchema:RDBTable" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5_MSATLIB_JOBTB.tblxmi#JOBTB"/>
+    <outputs xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ContainerManagedEntity_1222309864216"/>
+  </nested>
+  <inputs xmi:type="RDBSchema:RDBDatabase" href="META-INF/backends/DB2UDBAS400_V53_1/10.0.0.5.dbxmi#A0.0.0.5"/>
+  <outputs xmi:type="ejb:EJBJar" href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <typeMapping xmi:type="Mapping:MappingRoot" href="JavatoDB2UDBAS400_V53TypeMaps.xmi#Java_to_DB2UDBAS400_V53_TypeMaps"/>
+</ejbrdbmapping:EjbRdbDocumentRoot>

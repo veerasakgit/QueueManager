@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="Claim Fire Menu"-->
+<page id="CLS_Menu">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="OPTION">
+			<row>20</row>
+			<col>7</col>
+			<len>2</len>
+		</field>	
+	</fields>
+	<processes>
+		<switch>
+			<case name="general">
+				<process id="1" type="setString">
+					<field name="OPTION">
+						<param name="OPTION">1</param>
+					</field>
+				</process>
+				<process id="2" type="sendEnter" checkerror="true"/>	
+				
+			</case>		
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="CPF1116">
+			<process id="1" type="stop"/>
+		</error>
+		<error code="CPF1120">
+			<process id="1" type="stop"/>
+		</error>
+	</error-handler>
+</page>

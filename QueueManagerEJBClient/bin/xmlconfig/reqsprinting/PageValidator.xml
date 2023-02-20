@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+
+	<!--page name="Sign On"-->
+	<page name="RQP_SignOn">
+		<class>th.co.msat.motor.as400interface.page.SignOnPage</class>
+		<!--config-file>SignOn.xml</config-file-->
+		<config-file>RQP_SignOn.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>36</col>
+			<len>8</len>
+			<value>Sign On</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="MSICV01"-->
+	<page name="RQP_MSICV01">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>MainMenu.xml</config-file-->
+		<config-file>RQP_MainMenu.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>2</col>
+			<len>8</len>
+			<value>MSICV01</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="NCL00A"-->
+	<page name="RQP_NCL00A">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>ClaimMenu.xml</config-file-->
+		<config-file>RQP_ClaimMenu.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>2</col>
+			<len>7</len>
+			<value>NCL00A</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="NCL06Z"-->
+	<page name="RQP_NCL06Z">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>PaymentSlips.xml</config-file-->
+		<config-file>RQP_PaymentSlips.xml</config-file>
+		<page-validator id="1">
+			<row>1</row>
+			<col>2</col>
+			<len>7</len>
+			<value>NCL06Z</value>
+		</page-validator>
+	</page>
+	
+	<!--page name="MCL970S"-->
+	<page name="RQP_MCL970S">
+		<class>th.co.msat.motor.as400interface.page.DefaultPage</class>
+		<!--config-file>MCL970S.xml</config-file-->
+		<config-file>RQP_MCL970S.xml</config-file>
+		<page-validator id="1">
+			<row>2</row>
+			<col>72</col>
+			<len>8</len>
+			<value>MCL970S</value>
+		</page-validator>
+	</page>
+	
+</pages>

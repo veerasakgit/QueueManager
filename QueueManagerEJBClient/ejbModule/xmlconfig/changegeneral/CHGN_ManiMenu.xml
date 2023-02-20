@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by den (den) -->
+<!--page id="Main Menu"-->
+<page id="CHGN_ManiMenu">
+	<error-panel>
+		<start-row>24</start-row>
+		<end-row>24</end-row>
+		<start-col>1</start-col>
+		<length>80</length>
+	</error-panel>
+	<fields>
+		<field name="Claim Registeration">
+			<row>20</row>
+			<col>7</col>
+			<len>2</len>
+		</field>
+		<!--		<field name="Claim Registeration Inner">-->
+		<!--			<row>22</row>-->
+		<!--			<col>22</col>-->
+		<!--		</field>-->
+	</fields>
+	<processes>
+		<switch validator="th.co.msat.motor.as400interface.process.validator.ClaimRecordValidator">
+			<case name="VMI">
+				<process id="1" type="setString">
+					<field name="Claim Registeration">
+						<param name="Claim Registeration">4</param>
+					</field>
+				</process>
+				<process id="2" type="sendEnter" checkerror="true"/>
+				<!--				<process id="3" type="setString">-->
+				<!--					<field name="Claim Registeration Inner">-->
+				<!--						<param name="Claim Registeration Inner">1</param>-->
+				<!--					</field>-->
+				<!--				</process>-->
+				<!--				<process id="4" type="sendEnter" checkerror="true" />-->
+			</case>
+			<case name="CMI">
+				<process id="1" type="setString">
+					<field name="Claim Registeration">
+						<param name="Claim Registeration">22</param>
+					</field>
+				</process>
+				<process id="2" type="sendEnter" checkerror="true"/>
+			</case>
+			<case name="error">
+				<process id="1" type="setString">
+					<field name="Claim Registeration">
+						<param name="Claim Registeration">22</param>
+					</field>
+				</process>
+				<process id="2" type="sendEnter" checkerror="true"/>
+			</case>
+		</switch>
+	</processes>
+	<error-handler>
+		<error code="CPF1116">
+			<process id="1" type="stop"/>
+		</error>
+		<error code="CPF1120">
+			<process id="1" type="stop"/>
+		</error>
+	</error-handler>
+</page>

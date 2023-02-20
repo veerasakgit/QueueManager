@@ -1,0 +1,10 @@
+com.ibm.ws.ejbdeploy.JQueueManagerEJB.CLOUDSCAPE_V51_1
+com.ibm.ws.ejbdeploy.JQueueManagerEJB.DB2UDBAS400_V53_1
+th.co.msat.motor.database
+th.co.msat.motor.database.services
+th.co.msat.motor.queuemanager
+th.co.msat.motor.queuemanager.database
+th.co.msat.motor.queuemanager.database.websphere_deploy.CLOUDSCAPE_V51_1
+th.co.msat.motor.queuemanager.database.websphere_deploy.DB2UDBAS400_V53_1
+th.co.msat.motor.queuemanager.test
+th.co.msat.motor.scheduletask

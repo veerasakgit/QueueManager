@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Class-Path: QueueManagerEJBClient.jar 
+ serviceLocatorMgr.jar 
+ LogModule.jar 
+ MSATMotorDataClient.jar 
+ MotorClame.jar 
+ sbf_runtime.jar 
+ BusinessServicesEJBClient.jar 
+ AS400InterfaceFramework.jar 
+ PrintingController.jar 
+ jxl-2.6.jar
+
